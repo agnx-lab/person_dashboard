@@ -31,3 +31,7 @@ secrets.*.json
 Workbench/config/attention.local.json
 个人知识库/10_raw/my-thoughts/reading-notes/*
 !个人知识库/10_raw/my-thoughts/reading-notes/.gitkeep
+
+# Agnx 子应用胶水产物必须入库（上游裸 dist 规则会误伤 .agnx/dist）
+!.agnx/dist/
+!.agnx/dist/**

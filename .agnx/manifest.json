@@ -1,0 +1,24 @@
+{
+  "id": "personal-workbench",
+  "name": "个人知识工作台",
+  "version": "0.4.3",
+  "engines": {
+    "agnx": ">=1.0.0"
+  },
+  "main": "./dist/index.js",
+  "icon": "./Workbench/public/workbench-mark.svg",
+  "contributes": {
+    "commands": [
+      {
+        "id": "personal-workbench.open",
+        "title": "个人知识工作台"
+      }
+    ],
+    "panels": [
+      {
+        "id": "personal-workbench.main",
+        "title": "个人知识工作台"
+      }
+    ]
+  }
+}
